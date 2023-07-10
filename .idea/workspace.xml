@@ -4,14 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="68e72e9d-8788-4ebb-b93a-f6d2d54be8dc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Discussion_4_CatBus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Discussion_4_Fight.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Discussion_4_Goose.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Discussion_4_Plane.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Discussion_4_Vehicle.java" afterDir="false" />
+    <list default="true" id="68e72e9d-8788-4ebb-b93a-f6d2d54be8dc" name="Changes" comment="SMH some of these were not meant to be done but yes we can cast them for it to work.">
+      <change afterPath="$PROJECT_DIR$/src/FillGrid.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HoFdemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/IntUnaryFunction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TenX.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Discussion_4_Rotate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Discussion_4_Rotate.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +47,7 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Discussion_4_Fight">
+  <component name="RunManager" selected="Application.FillGrid">
     <configuration name="Discussion_4_Fight" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Discussion_4_Fight" />
       <module name="CS61B Discussions" />
@@ -57,8 +55,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Discussion_4_Rotate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Discussion_4_Rotate" />
+    <configuration name="FillGrid" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FillGrid" />
+      <module name="CS61B Discussions" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HoFdemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HoFdemo" />
+      <module name="CS61B Discussions" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Rotate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Rotate" />
       <module name="CS61B Discussions" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -66,8 +78,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FillGrid" />
+        <item itemvalue="Application.HoFdemo" />
         <item itemvalue="Application.Discussion_4_Fight" />
-        <item itemvalue="Application.Discussion_4_Rotate" />
       </list>
     </recent_temporary>
   </component>
@@ -80,6 +93,14 @@
       <option name="presentableId" value="Default" />
       <updated>1688807429507</updated>
     </task>
+    <task id="LOCAL-00001" summary="SMH some of these were not meant to be done but yes we can cast them for it to work.">
+      <created>1688876727500</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1688876727500</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -92,5 +113,20 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="SMH some of these were not meant to be done but yes we can cast them for it to work." />
+    <option name="LAST_COMMIT_MESSAGE" value="SMH some of these were not meant to be done but yes we can cast them for it to work." />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/FillGrid.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

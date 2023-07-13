@@ -4,7 +4,6 @@ import java.util.NoSuchElementException;
 public class OHIterator implements Iterator<OHRequest> {
     OHRequest curr;
     public OHIterator(OHRequest queue){
-
         this.curr=queue;
     }
 

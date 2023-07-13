@@ -15,7 +15,9 @@ public class OHIterator implements Iterator<OHRequest> {
 
     @Override
     public boolean hasNext() {
-        return curr.next!=null;
+        if(curr!=null && !isGood(curr.description))curr=curr.next;
+        if(curr==null)return false;
+        return true;
     }
 
     @Override
@@ -23,7 +25,6 @@ public class OHIterator implements Iterator<OHRequest> {
         if(!hasNext())throw new NoSuchElementException();
         OHRequest returnItem = curr;
         curr = curr.next;
-        if(isGood(curr.description))return returnItem;
-       else return null;
+        return returnItem;
     }
 }

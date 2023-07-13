@@ -4,11 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="68e72e9d-8788-4ebb-b93a-f6d2d54be8dc" name="Changes" comment="SMH some of these were not meant to be done but yes we can cast them for it to work.">
-      <change afterPath="$PROJECT_DIR$/src/FillGrid.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HoFdemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/IntUnaryFunction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TenX.java" afterDir="false" />
+    <list default="true" id="68e72e9d-8788-4ebb-b93a-f6d2d54be8dc" name="Changes" comment="fill grid finally workss">
+      <change afterPath="$PROJECT_DIR$/src/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Athlete.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Grandma.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PeopleWatching.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TestAnimal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,7 +50,7 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FillGrid">
+  <component name="RunManager" selected="Application.TestAnimal">
     <configuration name="Discussion_4_Fight" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Discussion_4_Fight" />
       <module name="CS61B Discussions" />
@@ -76,8 +79,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestAnimal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TestAnimal" />
+      <module name="CS61B Discussions" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestAnimal" />
         <item itemvalue="Application.FillGrid" />
         <item itemvalue="Application.HoFdemo" />
         <item itemvalue="Application.Discussion_4_Fight" />
@@ -100,7 +111,14 @@
       <option name="project" value="LOCAL" />
       <updated>1688876727500</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="fill grid finally workss">
+      <created>1688955159757</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1688955159757</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -116,7 +134,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="SMH some of these were not meant to be done but yes we can cast them for it to work." />
-    <option name="LAST_COMMIT_MESSAGE" value="SMH some of these were not meant to be done but yes we can cast them for it to work." />
+    <MESSAGE value="fill grid finally workss" />
+    <option name="LAST_COMMIT_MESSAGE" value="fill grid finally workss" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

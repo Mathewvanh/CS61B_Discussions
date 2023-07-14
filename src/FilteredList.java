@@ -16,7 +16,7 @@ public class FilteredList<T> implements Iterable<T> {
             index=0;
         }
         public boolean hasNext(){
-            if(list.get(index)!=null && !pred.test(list.get(index)))index++;
+            while(list.get(index)!=null && !pred.test(list.get(index)))index++;
             if(list.get(index) ==null)return false;
             return true;
         }

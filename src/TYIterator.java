@@ -4,7 +4,7 @@ import java.util.NoSuchElementException;
 public class TYIterator extends OHIterator {
     OHRequest curr;
     public TYIterator(OHRequest queue) {
-        this.curr=queue;
+        super(queue);
     }
 
     @Override

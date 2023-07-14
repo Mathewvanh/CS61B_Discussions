@@ -4,15 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="68e72e9d-8788-4ebb-b93a-f6d2d54be8dc" name="Changes" comment="fill grid finally workss">
-      <change afterPath="$PROJECT_DIR$/src/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Athlete.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Grandma.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PeopleWatching.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TestAnimal.java" afterDir="false" />
+    <list default="true" id="68e72e9d-8788-4ebb-b93a-f6d2d54be8dc" name="Changes" comment="super method contructs the parent class constructor in the new one.">
+      <change afterPath="$PROJECT_DIR$/src/Iterator_tester.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS61B Discussions.iml" beforeDir="false" afterPath="$PROJECT_DIR$/CS61B Discussions.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TYIterator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TYIterator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +38,10 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -118,7 +117,35 @@
       <option name="project" value="LOCAL" />
       <updated>1688955159757</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="My implementation. the hasNext method feels better based on what they used">
+      <created>1689270406700</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1689270406700</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Corrected implementation">
+      <created>1689270694950</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1689270694950</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Some other files from other discussions.">
+      <created>1689270723889</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1689270723889</updated>
+    </task>
+    <task id="LOCAL-00006" summary="This weird super method error that I didn't know about">
+      <created>1689271840713</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1689271840713</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -135,7 +162,11 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="SMH some of these were not meant to be done but yes we can cast them for it to work." />
     <MESSAGE value="fill grid finally workss" />
-    <option name="LAST_COMMIT_MESSAGE" value="fill grid finally workss" />
+    <MESSAGE value="My implementation. the hasNext method feels better based on what they used" />
+    <MESSAGE value="Corrected implementation" />
+    <MESSAGE value="Some other files from other discussions." />
+    <MESSAGE value="This weird super method error that I didn't know about" />
+    <option name="LAST_COMMIT_MESSAGE" value="This weird super method error that I didn't know about" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

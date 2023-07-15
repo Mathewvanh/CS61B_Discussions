@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="68e72e9d-8788-4ebb-b93a-f6d2d54be8dc" name="Changes" comment="super method contructs the parent class constructor in the new one.">
-      <change afterPath="$PROJECT_DIR$/src/Iterator_tester.java" afterDir="false" />
+    <list default="true" id="68e72e9d-8788-4ebb-b93a-f6d2d54be8dc" name="Changes" comment="I got stuck in a infinite loop. Think I got forced into a corner. gonna use the answer to help">
+      <change afterPath="$PROJECT_DIR$/src/Predicate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/inheritanceMisery.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS61B Discussions.iml" beforeDir="false" afterPath="$PROJECT_DIR$/CS61B Discussions.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TYIterator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TYIterator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/IteratorOfIterators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IteratorOfIterators.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +49,7 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TestAnimal">
+  <component name="RunManager" selected="Application.IteratorDemo">
     <configuration name="Discussion_4_Fight" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Discussion_4_Fight" />
       <module name="CS61B Discussions" />
@@ -71,8 +71,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Rotate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Rotate" />
+    <configuration name="IteratorDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="IteratorDemo" />
       <module name="CS61B Discussions" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -87,6 +87,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.IteratorDemo" />
         <item itemvalue="Application.TestAnimal" />
         <item itemvalue="Application.FillGrid" />
         <item itemvalue="Application.HoFdemo" />
@@ -145,7 +146,35 @@
       <option name="project" value="LOCAL" />
       <updated>1689271840713</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="I don't wanna write the test, too weird. otherwise the discussion is finished.">
+      <created>1689300830516</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1689300830516</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Implemented filtered list">
+      <created>1689313083453</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1689313083453</updated>
+    </task>
+    <task id="LOCAL-00009" summary="The while loop to skip those that are not good is good. Included here.">
+      <created>1689313121188</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1689313121188</updated>
+    </task>
+    <task id="LOCAL-00010" summary="I got stuck in a infinite loop. Think I got forced into a corner. gonna use the answer to help">
+      <created>1689400995547</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1689400995547</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -166,7 +195,11 @@
     <MESSAGE value="Corrected implementation" />
     <MESSAGE value="Some other files from other discussions." />
     <MESSAGE value="This weird super method error that I didn't know about" />
-    <option name="LAST_COMMIT_MESSAGE" value="This weird super method error that I didn't know about" />
+    <MESSAGE value="I don't wanna write the test, too weird. otherwise the discussion is finished." />
+    <MESSAGE value="Implemented filtered list" />
+    <MESSAGE value="The while loop to skip those that are not good is good. Included here." />
+    <MESSAGE value="I got stuck in a infinite loop. Think I got forced into a corner. gonna use the answer to help" />
+    <option name="LAST_COMMIT_MESSAGE" value="I got stuck in a infinite loop. Think I got forced into a corner. gonna use the answer to help" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -176,6 +209,15 @@
           <line>9</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/IteratorDemo.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.util.NoSuchElementException" package="java.util" />
+          <option name="timeStamp" value="4" />
+        </breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
